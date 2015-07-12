@@ -14,4 +14,5 @@ class BabiesController < ApplicationController
   def update
     render nothing: true
   end
+
 end

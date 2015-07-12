@@ -1,1 +1,9 @@
-<!-- Your form goes here! -->
+<%= form_for(@baby) do |f| %>
+
+  <%= f.text_field :first_name %>
+  <%= f.text_field :last_name %>
+  <%= f.text_field :weight %>
+  <%= f.date_field :birth_date %>
+
+  <%= f.submit %>
+<% end %> 
